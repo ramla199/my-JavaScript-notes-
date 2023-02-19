@@ -27,6 +27,10 @@ const mins = Math.round(diff/ 1000/ 60);
 const hours = Math.round(mins/ 60 );
 const days = Math.round(hours / 24);
 
+// converting timestamps into date objects
+
+const timestmp = 1676726689089;
+console.log(new Date(timestmp)); // 2023-02-18T13:24:49.089Z
 
 // date strings
 // console.log(date.toDateString()); // Sat Feb 18 2023
