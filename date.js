@@ -32,6 +32,16 @@ const days = Math.round(hours / 24);
 const timestmp = 1676726689089;
 console.log(new Date(timestmp)); // 2023-02-18T13:24:49.089Z
 
+// note: https://date-fns.org/ search format
+// and to add date-fns copy this link <script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script> above js script tag and start using it
+
+// const now2 = new Date();
+
+// console.log(dateFns.isToday(now2)); // true
+// YYYY for the year , MMM for the month, dddd for the day , Do for the date 
+// console.log(dateFns.format(now2, 'dddd, Do, MMMM, YYYY')) // Sunday, 19th, February, 2023 you can take of the commas
+
+
 // date strings
 // console.log(date.toDateString()); // Sat Feb 18 2023
 // console.log(date.toTimeString()); // 13:18:47 GMT+0000 (Coordinated Universal Time)
