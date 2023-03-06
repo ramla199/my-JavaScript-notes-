@@ -36,19 +36,24 @@
 // console.log(str.substring(-2)); //-> Apple, Banana, Kiwi
 
 // String substr() -> substr() is similar to slice(). The difference is that the second parameter specifies the length of the extracted part.
-
-
+// more note
 
 // String replace()
-// String replaceAll()
-// String toUpperCase()
-// String toLowerCase()
+//// The replace() method replaces a specified value with another value in a string:
+// let text = "Please visit Microsoft!";
+// console.log(text.replace("Microsoft", "W3Schools")); // -> Please visit W3Schools!
+// Note
+//// The replace() method does not change the string it is called on. in other word it doesn’t modify the original
+//  let text = "Please visit Microsoft!";
+//  console.log(text.replace("Microsoft", "W3Schools") )// -> Please visit W3Schools! 
+//  console.log( text ) // -> Please visit Microsoft!
+//// The replace() method returns a new string.
+//// The replace() method replaces only the first match
+//// If you want to replace all matches, use a regular expression with the /g flag set. See examples below.
+// String replaceAll() -> To replace all matches, use a regular expression with a /g flag (global match):
+// String toUpperCase()// String toLowerCase()
 // String concat()
-// String trim()
-// String trimStart()
-// String trimEnd()
-// String padStart()
-// String padEnd()
-// String charAt()
-// String charCodeAt()
+// String trim()// String trimStart()// String trimEnd()
+// String padStart()// String padEnd()
+// String charAt()// String charCodeAt()
 // String split()
